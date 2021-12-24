@@ -26,10 +26,13 @@ const FeedbackForm = () => {
         doublePassword: value1,
       };
       console.log(userSendInfo);
+      // eslint-disable-next-line
       alert("Данные успешно отправлены!");
     } else if (value === "" || value1 === "") {
+      // eslint-disable-next-line
       alert("Введите пароль, не заполнено поле ввода!");
     } else {
+      // eslint-disable-next-line
       alert("Введенные пароли не совпадают!");
     }
   };

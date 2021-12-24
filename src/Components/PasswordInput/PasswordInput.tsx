@@ -9,6 +9,7 @@ const PasswordInput = (props: any) => {
 
   // меняю тип инпута
   const changePasswordType = () => {
+    // eslint-disable-next-line
     setPassword((prev) => (prev === "password" ? "text" : "password"));
   };
 
